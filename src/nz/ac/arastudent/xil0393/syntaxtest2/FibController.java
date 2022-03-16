@@ -3,7 +3,7 @@ package nz.ac.arastudent.xil0393.syntaxtest2;
 public class FibController extends ExerciseController {
 	//CONSTANT
 	//primitive type
-	private final int number = 20;
+	private final int NUMBER = 20;
 
 	Fibonacci fib1 = new Fibonacci();
 
@@ -14,7 +14,7 @@ public class FibController extends ExerciseController {
 
 	@Override
 	protected void doStuff() {
-		this.myView.add(fib1.getValue(number));
+		this.myView.add(fib1.getValue(NUMBER));
 	}
 
 }
