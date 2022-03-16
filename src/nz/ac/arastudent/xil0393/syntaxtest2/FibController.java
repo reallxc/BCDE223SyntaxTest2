@@ -14,7 +14,8 @@ public class FibController extends ExerciseController {
 
 	@Override
 	protected void doStuff() {
-		this.myView.add(fib1.getValue(NUMBER));
+		for (int i=0;i<NUMBER;i++)
+		this.myView.add(fib1.getValue(NUMBER)[i]);
 	}
 
 }
